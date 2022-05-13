@@ -16,7 +16,7 @@
     },
     {
       "extends": [
-        "packages:lintes"
+        "packages:linters"
       ],
       "automerge": true
     }
