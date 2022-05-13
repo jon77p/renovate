@@ -40,5 +40,8 @@
   },
   "vulnerabilityAlerts": {
     "enabled": true
+  },
+  "pre-commit": {
+    "enabled": true
   }
 }
