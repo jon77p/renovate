@@ -1,6 +1,7 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    "helpers:pinGitHubActionDigests"
   ],
   "labels": ["renovate"],
   "lockFileMaintenance": {
@@ -12,7 +13,32 @@
       "matchUpdateTypes": ["minor", "patch"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true
+    },
+    {
+      "extends": [
+        "packages:lintes"
+      ],
+      "automerge": true
     }
   ],
-  "reviewersFromCodeOwners": true
+  "pinDigest": true,
+  "respectLatest": true,
+  "reviewersFromCodeOwners": true,
+  "commitBody": "Signed-off-by: {{{gitAuthor}}}",
+  "npm": {
+    "enabled": true
+  },
+  "gomod": {
+    "enabled": true
+  },
+  "docker": {
+    "enabled": true,
+    "pinDigests": true
+  },
+  "docker-compose": {
+    "enabled": true
+  },
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
 }
