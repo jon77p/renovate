@@ -56,7 +56,6 @@
     "enabled": true
   },
   "pre-commit": {
-    "enabled": true,
-    "pinDigests": true
+    "enabled": true
   }
 }
