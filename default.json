@@ -19,6 +19,13 @@
         "packages:linters"
       ],
       "automerge": true
+    },
+    {
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
     }
   ],
   "pinDigest": true,
