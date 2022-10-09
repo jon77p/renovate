@@ -1,0 +1,27 @@
+---
+version: "3"
+
+includes:
+  tasks: .github/tasks
+
+tasks:
+  setup:
+    desc: Setup repo environment
+    deps:
+      - tasks:setup
+  update:
+    desc: Run updates
+    deps:
+      - tasks:update
+  lint:
+    desc: Lint current repo
+    deps:
+      - tasks:lint
+  format:
+    desc: Format current repo
+    deps:
+      - tasks:format
+  scan:
+    desc: Scan current repo
+    deps:
+      - tasks:scan
