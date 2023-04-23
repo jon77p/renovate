@@ -1,9 +1,18 @@
 {
   "extends": [
     "config:base",
-    "helpers:pinGitHubActionDigests"
+    "github>whitesource/merge-confidence:beta",
+    "group:linters",
+    "group:allNonMajor",
+    "helpers:pinGitHubActionDigests",
+    "npm:unpublishSafe",
+    "packages:linters",
+    "replacements:k8s-registry-move",
+    "schedule:automergeDaily"
   ],
   "labels": ["renovate"],
+  "automergeType": "pr",
+  "platformAutomerge": true,
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
@@ -15,22 +24,16 @@
       "automerge": true
     },
     {
-      "extends": [
-        "packages:linters"
-      ],
+      "extends": ["packages:linters"],
       "automerge": true
     },
     {
-      "matchDatasources": [
-        "docker"
-      ],
+      "matchDatasources": ["docker"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     },
     {
-      "matchDatasources": [
-        "pre-commit"
-      ],
+      "matchDatasources": ["pre-commit"],
       "matchUpdateTypes": ["patch"],
       "automerge": true
     }
@@ -47,7 +50,13 @@
   },
   "docker": {
     "enabled": true,
-    "pinDigests": true
+    "pinDigests": true,
+    "major": {
+      "enabled": true
+    },
+    "minor": {
+      "enabled": true
+    }
   },
   "docker-compose": {
     "enabled": true
