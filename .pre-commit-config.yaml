@@ -54,11 +54,6 @@ repos:
     hooks:
       - id: ggshield
         args: [secret, scan, pre-commit]
-  - repo: https://github.com/thoughtworks/talisman
-    rev: "63126f50cafcf5e30832252ac2802ff671b6289a" # frozen: v1.29.1
-    hooks:
-      - id: talisman-commit
-        entry: cmd --githook pre-commit
   - repo: https://github.com/sirwart/ripsecrets
     rev: bffab8f67a008e845108f037eb9bf7e9c52da54f # frozen: v0.1.5
     hooks:
@@ -99,24 +94,3 @@ repos:
       - id: go-vet
       - id: go-mod-tidy
       - id: go-mod-vendor
-  # Terraform-related hooks
-  - repo: https://github.com/gruntwork-io/pre-commit
-    rev: 1722bf6a0804bf5357f4c49da4b80bfc875f1697 # frozen: v0.1.17
-    hooks:
-      - id: terraform-fmt
-      - id: terraform-validate
-      - id: tflint
-  - repo: https://github.com/aquasecurity/tfsec
-    rev: aaaae87de1e5b94adc6c6e84a70592e6d763c799 # frozen: v1.28.0
-    hooks:
-      - id: tfsec
-  # Ansible-related hooks
-  - repo: https://github.com/ansible-community/ansible-lint.git
-    rev: 445aa28e7d83e72e21b94273f56b86440edb3909 # frozen: v6.8.0
-    hooks:
-      - id: ansible-lint
-  # Docker-related hooks
-  - repo: https://github.com/hadolint/hadolint
-    rev: 0269c965ba799e7f79da826d9589eaca46eacb9a # frozen: v2.10.0
-    hooks:
-      - id: hadolint
