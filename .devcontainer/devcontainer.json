@@ -3,7 +3,7 @@
 {
   "name": "Template",
   "build": {
-    "dockerfile": ".devcontainer/Dockerfile",
+    "dockerfile": "Dockerfile",
     // Update 'VARIANT' to pick an Ubuntu version: jammy / ubuntu-22.04, focal / ubuntu-20.04, bionic /ubuntu-18.04
     // Use ubuntu-22.04 or ubuntu-18.04 on local arm64/Apple Silicon.
     "args": { "VARIANT": "ubuntu-22.04" }
@@ -37,28 +37,32 @@
     }
   },
 
-  // VSCode Editor Settings
-  "settings": {
-    "sync.autoDownload": true,
-    "sync.autoUpload": true,
-    "telemetry.enableTelemetry": false,
-    "redhat.telemetry.enabled": false,
-    "debug.javascript.autoAttachFilter": "smart",
-    "git.autofetch": true,
-    "files.associations": {
-      "*.yml": "yaml"
-    },
-    "yaml.schemas": {
-      "https://json.schemastore.org/taskfile.json": ".github/tasks/**/*.yml"
-    },
-    "git.confirmSync": true,
-    "editor.inlineSuggest.enabled": true,
-    "github.copilot.inlineSuggest.enable": true,
-    "github.copilot.enable": {
-      "*": true,
-      "yaml": true,
-      "plaintext": false,
-      "markdown": false
+  "customizations": {
+    "vscode": {
+      // VSCode Editor Settings
+      "settings": {
+        "sync.autoDownload": true,
+        "sync.autoUpload": true,
+        "telemetry.enableTelemetry": false,
+        "redhat.telemetry.enabled": false,
+        "debug.javascript.autoAttachFilter": "smart",
+        "git.autofetch": true,
+        "files.associations": {
+          "*.yml": "yaml"
+        },
+        "yaml.schemas": {
+          "https://json.schemastore.org/taskfile.json": "../.github/tasks/**/*.yml"
+        },
+        "git.confirmSync": true,
+        "editor.inlineSuggest.enabled": true,
+        "github.copilot.inlineSuggest.enable": true,
+        "github.copilot.enable": {
+          "*": true,
+          "yaml": true,
+          "plaintext": false,
+          "markdown": false
+        }
+      }
     }
   }
 }
