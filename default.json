@@ -11,6 +11,7 @@
     "schedule:automergeDaily"
   ],
   "labels": ["renovate"],
+  "automerge": true,
   "automergeType": "pr",
   "platformAutomerge": true,
   "lockFileMaintenance": {
