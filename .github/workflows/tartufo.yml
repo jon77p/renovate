@@ -6,7 +6,7 @@ jobs:
   tartufo:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@1d96c772d19495a3b5c517cd2bc0cb401ea0529f # v4
+      - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4
       - uses: godaddy/tartufo-action@d95293febe8f40a6b8ee3ac0acebfc36c3b7e0d1 # 4.1.0
         id: tartufo
         with:
