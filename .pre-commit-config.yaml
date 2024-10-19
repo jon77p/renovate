@@ -63,7 +63,7 @@ repos:
     hooks:
       - id: gitleaks
   - repo: https://github.com/godaddy/tartufo
-    rev: v5.0.1 # frozen: v4.1.0
+    rev: v5.0.2 # frozen: v4.1.0
     hooks:
       - id: tartufo
         args: [pre-commit]
@@ -95,6 +95,6 @@ repos:
       - id: go-mod-tidy
       - id: go-mod-vendor
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 38.124.2  # frozen: 35.58.0
+    rev: 38.127.1  # frozen: 35.58.0
     hooks:
       - id: renovate-config-validator
