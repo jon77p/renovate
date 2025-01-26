@@ -95,6 +95,6 @@ repos:
       - id: go-mod-tidy
       - id: go-mod-vendor
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 39.133.3  # frozen: 35.58.0
+    rev: 39.133.4  # frozen: 35.58.0
     hooks:
       - id: renovate-config-validator
