@@ -32,7 +32,7 @@
     "ghcr.io/devcontainers/features/ruby:1@sha256:810d7c68f9393ebe9aaa0ec51ed7172c1ef7e3a73d8bb7c6ebf2b220e183480f": {
       "version": "latest"
     },
-    "ghcr.io/devcontainers/features/rust:1@sha256:aba6f47303b197976902bf544c786b5efecc03c238ff593583e5e74dfa9c7ccb": {
+    "ghcr.io/devcontainers/features/rust:1@sha256:f1da0f3f9167dacd59078e3c3a0b85a483c7eac7ae77ea0ae149b5bea07fdc49": {
       "version": "latest"
     }
   },
