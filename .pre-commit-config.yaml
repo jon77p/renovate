@@ -69,7 +69,7 @@ repos:
         args: [pre-commit]
   # Python-related hooks
   - repo: https://github.com/pycqa/pylint
-    rev: v3.3.6 # frozen: v3.0.0a6
+    rev: v3.3.7 # frozen: v3.0.0a6
     hooks:
       - id: pylint
   - repo: https://github.com/pre-commit/mirrors-mypy
@@ -95,6 +95,6 @@ repos:
       - id: go-mod-tidy
       - id: go-mod-vendor
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 40.2.0  # frozen: 35.58.0
+    rev: 40.3.1  # frozen: 35.58.0
     hooks:
       - id: renovate-config-validator
