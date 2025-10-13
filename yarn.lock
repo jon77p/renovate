@@ -260,9 +260,9 @@ jsonpointer@~5.0.1:
   integrity sha512-p/nXbhSEcu3pZRdkW1OfJhpsVtW1gd4Wa1fnQc9YLiTfAjn0312eMKimbdIQzuZl9aa9xUGaRlP9T/CJE/ditQ==
 
 katex@^0.16.0:
-  version "0.16.23"
-  resolved "https://registry.yarnpkg.com/katex/-/katex-0.16.23.tgz#24f2655a7922d0efb388107743718a4fd176265c"
-  integrity sha512-7VlC1hsEEolL9xNO05v9VjrvWZePkCVBJqj8ruICxYjZfHaHbaU53AlP+PODyFIXEnaEIEWi3wJy7FPZ95JAVg==
+  version "0.16.24"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.16.24.tgz#5fd1d5aabf9075f9469e7e380bcd488670cc2fbb"
+  integrity sha512-g/PXUTqqppA6XL2beQtIxoYBPdO1u3vnc2FHMQqJ53n9L5faHDm7UYa+tlYvnNQRuSX6eVusF30/v7ADkcFC8A==
   dependencies:
     commander "^8.3.0"
 
