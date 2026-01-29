@@ -20,7 +20,7 @@
     "ghcr.io/devcontainers/features/git:1@sha256:27905dc196c01f77d6ba8709cb82eeaf330b3b108772e2f02d1cd0d826de1251": {
       "version": "latest"
     },
-    "ghcr.io/devcontainers/features/github-cli:1@sha256:1ad1ec1a806cc9926c84ca5b147427bba03b97e14e91f9df89af83726039ecaf": {
+    "ghcr.io/devcontainers/features/github-cli:1@sha256:d22f50b70ed75339b4eed1ba9ecde3a1791f90e88d37936517e3bace0bbad671": {
       "version": "latest"
     },
     "ghcr.io/devcontainers/features/node:1@sha256:cc6660d1a249c181d802e02596de6000bf68722a425ed8378afe90f8cf188952": {
