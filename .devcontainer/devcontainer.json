@@ -29,7 +29,7 @@
     "ghcr.io/devcontainers/features/python:1@sha256:fbcad6955caeecc5ad3f7886baf652e25cba5225a6c4c2287c536de2e5607511": {
       "version": "latest"
     },
-    "ghcr.io/devcontainers/features/ruby:1@sha256:1c9bbde293ba6f21449a58be34a358ffa2b3846f31cb3146409b26ab3f13e1a2": {
+    "ghcr.io/devcontainers/features/ruby:2@sha256:31b07475acf72a649c2f323d2ab5c15e1a0c286e7495be822b0850e240a9b5b7": {
       "version": "latest"
     },
     "ghcr.io/devcontainers/features/rust:1@sha256:0c55e65f2e3df736e478f26ee4d5ed41bae6b54dac1318c443e31444c8ed283c": {
