@@ -17,7 +17,7 @@
   // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "vscode",
   "features": {
-    "ghcr.io/devcontainers/features/git:1@sha256:a3e43ff91b9f5f6bd2c14bd510d43e5e698f1266dc41027ba4e04e7e45be607a": {
+    "ghcr.io/devcontainers/features/git:1@sha256:fd75977de13a9979000e0e78baf949adb0ca71d2398995fa22e0a36d7e7e7fe2": {
       "version": "latest"
     },
     "ghcr.io/devcontainers/features/github-cli:1@sha256:d22f50b70ed75339b4eed1ba9ecde3a1791f90e88d37936517e3bace0bbad671": {
