@@ -33,7 +33,7 @@ repos:
       - id: check-renovate
   # General Linting-related hooks
   - repo: https://github.com/markdownlint/markdownlint
-    rev: 6436a02d68bb6f164099b25138a6a4e6268b8730 # frozen: v0.17.0
+    rev: 0f669166cc0f331f0faf130814e53f641e2f6d49 # frozen: v0.18.0
     hooks:
       - id: markdownlint
         args: [--config, .github/lint/.markdownlint.yaml]
@@ -95,6 +95,6 @@ repos:
       - id: go-mod-tidy
       - id: go-mod-vendor
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 44.12.0  # frozen: 35.58.0
+    rev: 44.13.3  # frozen: 35.58.0
     hooks:
       - id: renovate-config-validator
