@@ -118,9 +118,9 @@ get-east-asian-width@^1.5.0:
   integrity sha512-QRbvDIbx6YklUe6RxeTeleMR0yv3cYH6PsPZHcnVn7xv7zO1BHN8r0XETu8n6Ye3Q+ahtSarc3WgtNWmehIBfA==
 
 ignore@~7.0.6:
-  version "7.0.6"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.6.tgz#6a57aaef4c90df27ac3590875d29e8f11988c88e"
-  integrity sha512-BAg6QkE8W+TuQLrrw0Ugr7HegXduRuuj8/ti2kSOc+jz1dmx8/WNcjr6XGnq5YpDWxFwwaavqD0+jIUOKelTsw==
+  version "7.0.7"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.7.tgz#b979ed6bcfdb93e6d0f1baf8de4e7e34e338a3a4"
+  integrity sha512-dML0wP6oak21rsNYCJpJB6O1BJIEwNpGrTw0URPfAk4hm0e3pRfCtzkfB6olBcXcVlU2rouCyz7lCyRB0OMVCA==
 
 ini@~7.0.0:
   version "7.0.0"
@@ -182,9 +182,9 @@ linkify-it@^5.0.2:
     uc.micro "^2.0.0"
 
 markdown-it@~14.3.0:
-  version "14.3.0"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-14.3.0.tgz#8542fa5506e3530f7e2b08dc3885630135c5620e"
-  integrity sha512-RCEsPjR+sr0x+AuYp601tKTkgFG4YEPLCzHST3cQ/fhlJkqAkz1L2/Qbp1j9qw5SBwQHFBoW8+hoN5xssOF0Tw==
+  version "14.3.1"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-14.3.1.tgz#8974e2473779363ed5682ea377f31564ee51e292"
+  integrity sha512-4Ej49aYTDFIQ+uBkfX8GBvJGccoARxxPep+7aWTs55ozbjQJpW9M26Fe53vnGgvLeVzva/amzjQQaQu9w0vMhA==
   dependencies:
     argparse "^2.0.1"
     entities "^4.5.0"
@@ -507,9 +507,9 @@ parse-entities@^4.0.0:
     is-hexadecimal "^2.0.0"
 
 picomatch@^4.0.4:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.5.tgz#51ea57a17d86f605f81039595fbc40ed06a55fab"
-  integrity sha512-RvwwcruNjI1ncT5xRakeyS9Lf8lcItv34KD+aif+VH9kduAyfYBipGh12274xtenIPZ119/R9BdTBa8gAwSh0A==
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.7.tgz#6313360034ccb36b3dc61ecbdff78121f90fe21f"
+  integrity sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==
 
 prettier@3.9.6:
   version "3.9.6"
