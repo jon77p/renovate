@@ -25,7 +25,7 @@ repos:
       - id: trailing-whitespace
         exclude: .md
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 99f2dd369364da7ed3ac536504132b3db2e7a3b1 # frozen: 0.38.1
+    rev: 0494aa7fa1314e98913a41227d8f0a515b2c1049 # frozen: 0.38.2
     hooks:
       - id: check-dependabot
       - id: check-github-actions
@@ -50,7 +50,7 @@ repos:
         args: [--config-file, .github/lint/.yamllint.yaml]
   # Secrets-related hooks
   - repo: https://github.com/gitguardian/gg-shield
-    rev: efc667f656e64e9587d92da3630b00a3f5f52e6e # frozen: v1.54.0
+    rev: 94571a547a8a2f314a094d142729ee88c6ed0a3b # frozen: v1.55.0
     hooks:
       - id: ggshield
         args: [secret, scan, pre-commit]
@@ -69,7 +69,7 @@ repos:
         args: [pre-commit]
   # Python-related hooks
   - repo: https://github.com/pycqa/pylint
-    rev: v4.0.8 # frozen: v3.0.0a6
+    rev: v4.0.9 # frozen: v3.0.0a6
     hooks:
       - id: pylint
   - repo: https://github.com/pre-commit/mirrors-mypy
@@ -95,6 +95,6 @@ repos:
       - id: go-mod-tidy
       - id: go-mod-vendor
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 44.108.2  # frozen: 35.58.0
+    rev: 44.115.10  # frozen: 35.58.0
     hooks:
       - id: renovate-config-validator
