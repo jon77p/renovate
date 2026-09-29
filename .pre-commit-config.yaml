@@ -63,13 +63,13 @@ repos:
     hooks:
       - id: gitleaks
   - repo: https://github.com/godaddy/tartufo
-    rev: v6.0.0 # frozen: v4.1.0
+    rev: v6.0.1 # frozen: v4.1.0
     hooks:
       - id: tartufo
         args: [pre-commit]
   # Python-related hooks
   - repo: https://github.com/pycqa/pylint
-    rev: v4.0.9 # frozen: v3.0.0a6
+    rev: v4.0.10 # frozen: v3.0.0a6
     hooks:
       - id: pylint
   - repo: https://github.com/pre-commit/mirrors-mypy
@@ -95,6 +95,6 @@ repos:
       - id: go-mod-tidy
       - id: go-mod-vendor
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 44.117.1  # frozen: 35.58.0
+    rev: 44.121.0  # frozen: 35.58.0
     hooks:
       - id: renovate-config-validator
