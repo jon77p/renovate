@@ -50,7 +50,7 @@ repos:
         args: [--config-file, .github/lint/.yamllint.yaml]
   # Secrets-related hooks
   - repo: https://github.com/gitguardian/gg-shield
-    rev: 4cccd600fd3890a7aba07fd0a45e483f3099fe70 # frozen: v1.56.1
+    rev: aa9a0c3487fd1dc4f883543bddc4da1bc064ac2b # frozen: v1.57.0
     hooks:
       - id: ggshield
         args: [secret, scan, pre-commit]
@@ -95,6 +95,6 @@ repos:
       - id: go-mod-tidy
       - id: go-mod-vendor
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 44.258.1  # frozen: 35.58.0
+    rev: 44.264.1  # frozen: 35.58.0
     hooks:
       - id: renovate-config-validator
